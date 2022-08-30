@@ -1,0 +1,22 @@
+specVersion: 0.25.0
+name: fn-example-io
+namespace: ""
+runtime: node
+registry: ""
+image: gcr.io/gsatchi/fn-example-io:latest
+imageDigest: sha256:6a5b50ef2697b85f9c3486effe1e3a3e89bfa98e7ca7677ad9c164c749765c49
+build: local
+git: {}
+buildpacks: []
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2022-08-26T15:29:43.013273-04:00
+invocation:
+  format: http
